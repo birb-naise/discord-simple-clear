@@ -1,0 +1,52 @@
+@-moz-document domain("discordapp.com") {
+/* ------BACKGROUND------ */
+body {
+    background: url("/*[[bg]]*/");
+    background-size: cover;
+}
+.appMount-3lHmkl {
+    background: rgba(0, 0, 0, /*[[opacity]]*/);
+}
+
+/* ------REMOVE GREY BG COLORS------ */
+.layer-3QrUeG,
+.layers-3iHuyZ,
+.container-2lgZY8,
+.container-3gCOGc,      /*friends list*/
+.wrapper-1Rf91z,        /*server list*/
+.container-2XeR5Z,      /*DMs*/
+.container-1r6BKw,      /*header*/
+.children-19S4PO::after,
+.container-PNkimc,      /*channel/DM list*/
+.channels-Ie2l6A,
+.container-3baos1,
+.members-1998pB,        /*user list*/
+.chat-3bRxxu,           /*chat*/
+.chat-3bRxxu form,
+.content-yTz4x3,
+.messagesWrapper-3lZDfY,
+.searchBar-3dMhjb,
+.inner-zqa7da,
+.typing-2GQL18,
+.scrollbar-2rkZSL,      /*scrollbars*/
+.pad-29zQak,
+.track-1JN30G {
+    background: transparent !important;
+}
+.container-1r6BKw,
+.header-2o-2hj {
+    box-shadow: none;
+}
+
+/* ------SCROLLBAR------ */
+.track-1JN30G,
+.thumb-2JwNFC {
+    border: none !important;
+}
+.scrollbar-2rkZSL {
+    width: 8px;
+}
+.thumb-2JwNFC {
+    background: rgba(0,0,0,.5) !important;
+}
+}
