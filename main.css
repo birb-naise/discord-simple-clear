@@ -8,46 +8,65 @@ body {
     background: rgba(0, 0, 0, /*[[opacity]]*/);
 }
 
-/* ------REMOVE GREY BG COLORS------ */
-.layer-3QrUeG,
-.layers-3iHuyZ,
-.container-2lgZY8,
-.container-3gCOGc,      /*friends list*/
-.wrapper-1Rf91z,        /*server list*/
-.container-2XeR5Z,      /*DMs*/
-.container-1r6BKw,      /*header*/
-.children-19S4PO::after,
-.container-PNkimc,      /*channel/DM list*/
-.channels-Ie2l6A,
-.container-3baos1,
-.members-1998pB,        /*user list*/
-.chat-3bRxxu,           /*chat*/
-.chat-3bRxxu form,
-.content-yTz4x3,
-.messagesWrapper-3lZDfY,
-.searchBar-3dMhjb,
-.inner-zqa7da,
-.typing-2GQL18,
-.scrollbar-2rkZSL,      /*scrollbars*/
-.pad-29zQak,
-.track-1JN30G {
-    background: transparent !important;
+/* ------REMOVE GREY/WHITE BG COLORS------ */
+.theme-dark,
+.theme-light {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #9d9d9d;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: transparent;
+    --background-floating: rgba(0, 0, 0, .8);
+    --channeltextarea-background: transparent;
+    --activity-card-background: transparent;
+    --deprecated-panel-background: transparent;
 }
+
+/*remove borders*/
 .container-1r6BKw,
 .header-2o-2hj,
 .searchBar-6Kv8R2 {
     box-shadow: none !important;
 }
 
+/*friends list*/
+.container-3gCOGc {
+    background: transparent;
+}
+
 /* ------SCROLLBAR------ */
-.track-1JN30G,
-.thumb-2JwNFC {
-    border: none !important;
+.scrollbar-2rkZSL,
+.pad-29zQak,
+.track-1JN30G {
+    background: transparent !important;
 }
 .scrollbar-2rkZSL {
     width: 8px;
 }
 .thumb-2JwNFC {
-    background: rgba(0,0,0,.5) !important;
+    background: rgba(0, 0, 0, .5) !important;
+}
+
+/* ------EMBEDDED TEXT------ */
+.embedProvider-3k5pfl,
+.embedDescription-1Cuq9a,
+.embedFields-2IPs5Z,
+.embedAuthorName-3mnTWj,
+.embedFooterText-28V_Wb {
+    color: #f2f2f2 !important;
+}
+
+/* ------POP-UP------ */
+.modal-yWgWj-,
+.footer-3rDWdC {
+    background: rgba(0, 0, 0, .5) !important;
 }
 }
