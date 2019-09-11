@@ -37,17 +37,16 @@ body {
     box-shadow: none !important;
 }
 
-/*friends list*/
-.container-3gCOGc {
-    background: transparent;
-}
-
-/* ------SCROLLBAR------ */
-.scrollbar-2rkZSL,
+/*misc*/
+.container-3gCOGc,  /*friends list*/
+.wrapper-3WhCwL,    /*mentions*/
+.scrollbar-2rkZSL,  /*scrollbar*/
 .pad-29zQak,
 .track-1JN30G {
     background: transparent !important;
 }
+
+/* ------SCROLLBAR------ */
 .scrollbar-2rkZSL {
     width: 8px;
 }
