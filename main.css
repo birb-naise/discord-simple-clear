@@ -31,9 +31,9 @@ body {
 }
 
 /*remove borders*/
-.container-1r6BKw,
 .header-2o-2hj,
-.searchBar-6Kv8R2 {
+.searchBar-6Kv8R2,
+.content-yTz4x3::before {
     box-shadow: none !important;
 }
 
