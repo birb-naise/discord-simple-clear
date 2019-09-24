@@ -3,4 +3,10 @@ Simple CSS style to add a bg to discord (with customizable bg opacity)
 
 ### Userstyles (Stylish) <a href="https://userstyles.org/styles/175085/discord-simple-clear">Download</a>
 
-<img src="https://userstyles.org/style_screenshots/175085_after.png?r=15679296976"/>
+### Credits (art)
+- gumimecv - Chika
+- 散散君 - Chiaki
+- 桔桔子-有顶天 - Zero Two
+- ??? - Rem (someone help me find the artist)
+
+<img src="https://userstyles.org/style_screenshots/175085_after.jpeg?r=1569288139"/>
