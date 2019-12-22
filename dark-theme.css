@@ -1,0 +1,19 @@
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #9d9d9d;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-floating: rgba(0, 0, 0, .8);
+    --channeltextarea-background: transparent;
+    --deprecated-panel-background: transparent;
+    --background-modifier-hover: rgba(0, 0, 0, .42);
+    --background-modifier-selected: rgba(0, 0, 0, .45);
+}
