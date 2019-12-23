@@ -24,6 +24,12 @@
     --background-modifier-selected: rgba(255, 255, 255, .45);
 }
 
+/* ------POP-UP------ */
+.modal-yWgWj-,
+.footer-3rDWdC {
+    background: rgba(255, 255, 255, .5) !important;
+}
+
 /*light theme adjustments*/
 .root-SR8cQa {
     background-color: rgba(255, 255, 255, .8);;
