@@ -7,6 +7,6 @@ Simple CSS style to add a bg to discord (with customizable bg opacity)
 - gumimecv - Chika
 - 散散君 - Chiaki
 - 桔桔子-有顶天 - Zero Two
-- ??? - Rem (someone help me find the artist)
+- Azriell - Yukina
 
 <img src="https://userstyles.org/style_screenshots/175085_after.jpeg?r=1569288139"/>
