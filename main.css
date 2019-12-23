@@ -4,11 +4,6 @@ body {
     background: url("/*[[bg]]*/");
     background-size: cover;
 }
-.appMount-3lHmkl {
-    background: rgba(0, 0, 0, /*[[opacity]]*/);
-}
-
-/* ------REMOVE GREY/WHITE BG COLORS------ */
 /*[[theme]]*/
 
 /*remove borders*/
