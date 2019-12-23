@@ -1,0 +1,30 @@
+.appMount-3lHmkl {
+    background: rgba(191, 191, 191, /*[[opacity]]*/);
+}
+
+/* ------REMOVE GREY/WHITE BG COLORS------ */
+.theme-dark,
+.theme-light {
+    --header-primary: #000;
+    --header-secondary: #404142;
+    --text-normal: #222;
+    --text-muted: #595959;
+    --channels-default: #262728;
+    --interactive-normal: #262728;
+    --interactive-hover: #1e1e1e;
+    --interactive-active: #000;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-floating: rgba(255, 255, 255, .8);
+    --channeltextarea-background: transparent;
+    --deprecated-panel-background: transparent;
+    --background-modifier-hover: rgba(255, 255, 255, .45);
+    --background-modifier-selected: rgba(255, 255, 255, .45);
+}
+
+/*light theme adjustments*/
+.root-SR8cQa {
+    background-color: rgba(255, 255, 255, .8);;
+}
