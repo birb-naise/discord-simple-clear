@@ -23,3 +23,9 @@
     --background-modifier-hover: rgba(0, 0, 0, .42);
     --background-modifier-selected: rgba(0, 0, 0, .45);
 }
+
+/* ------POP-UP------ */
+.modal-yWgWj-,
+.footer-3rDWdC {
+    background: rgba(0, 0, 0, .5) !important;
+}
