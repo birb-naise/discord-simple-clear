@@ -1,3 +1,8 @@
+.appMount-3lHmkl {
+    background: rgba(0, 0, 0, /*[[opacity]]*/);
+}
+
+/* ------REMOVE GREY/WHITE BG COLORS------ */
 .theme-dark,
 .theme-light {
     --header-primary: #fff;
